@@ -131,8 +131,8 @@ Version : 0.1
 
             function ($rootScope, $window) {
 
-                var method = method == 'local' ? $window.localStorage : $window.sessionStorage,
-                    pre = 'sS.expire.';
+                method = method == 'local' ? $window.localStorage : $window.sessionStorage;
+                var pre = 'sS.expire.';
 
                 return {
 
