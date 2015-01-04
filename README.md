@@ -18,6 +18,9 @@ This is my first AngularJS module created out of the need to have persistant dat
  * Add the requirement 'simpleStorage' to your application module dependencies
  * Inject the desired objects in the module or controller level of your app
 
+### Bower Installation
+ * bower install angular-simple-storage
+
 Example
 
 ```javascript
