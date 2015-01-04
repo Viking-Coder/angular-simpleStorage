@@ -53,6 +53,9 @@
         else if (['month', 'months'].indexOf(method) > -1) {
             $today.setMonth($today.getMonth() + lng);
         }
+        else if (['day', 'days'].indexOf(method) > -1) {
+            $today.setDate($today.getDate() + lng);
+        }
         else if (['hour', 'hours'].indexOf(method) > -1) {
             $today.setHours($today.getHours() + lng);
         }
