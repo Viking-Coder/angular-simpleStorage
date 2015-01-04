@@ -1,0 +1,21 @@
+{
+  "name": "angular-simpleStorage",
+  "description": "A simple HTML5 local and session storage system for persistent data",
+  "version": "1.0-beta",
+  "homepage": "https://github.com/billbsquared/angular-simpleStorage",
+  "main": "/dist/angular-simpleStorage.js",
+  "license": "MIT",
+  "keywords:": [
+    "data",
+    "localStorage",
+    "sessionStorage",
+    "persistent data"
+  ],
+  "authors": [
+    "Bill Brady <billbsquared@gmail.com>"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/billbsquared/angular-simpleStorage"
+  }
+}
