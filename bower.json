@@ -1,5 +1,5 @@
 {
-  "name": "angular-simpleStorage",
+  "name": "angular-simple-storage",
   "description": "A simple HTML5 local and session storage system for persistent data",
   "version": "1.0-beta",
   "homepage": "https://github.com/billbsquared/angular-simpleStorage",
