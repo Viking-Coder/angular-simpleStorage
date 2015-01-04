@@ -14,6 +14,7 @@
   "authors": [
     "Bill Brady <billbsquared@gmail.com>"
   ],
+  "ignore": "",
   "repository": {
     "type": "git",
     "url": "git://github.com/billbsquared/angular-simpleStorage"
