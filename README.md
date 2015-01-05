@@ -29,7 +29,7 @@ angular.module('myModule', [
     'myController'
 ]):
 
-angular.module('myModule)
+angular.module('myModule')
 	.controller('myController', myController);
 
 angular.module('myModule').inject = ['$local', '$session', '$flash'];
