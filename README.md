@@ -7,7 +7,7 @@ Basic useful feature list:
  * Create stored, session (tab/window) based and flash storage for AngularJS apps
  * Add an expiration to stored information
  * Automatically checks to see if stored information is an object/json string (converts if needed).
- * Very small (1.7kb minified / 5kb)
+ * Very small (2kb minified / 7kb)
  
 This is my first AngularJS module created out of the need to have persistant data across sessions.
 
