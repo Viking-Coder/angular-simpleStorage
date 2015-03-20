@@ -25,7 +25,7 @@
 
 'use strict';
 
-angular.module('storageFactory', [])
+angular.module('simpleStorage', [])
     .factory('$local', function ($rootScope, $window) {
 
         var $localFactory = {};
