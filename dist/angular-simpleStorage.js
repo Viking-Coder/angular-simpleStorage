@@ -19,18 +19,18 @@
  */
 
 /*
- Author  : Bill Brady <billbsquared@gmail.com>
- Version : 1.0
+ Author  : Bill Brady <bill@thevikingcoder.com>
+ Version : 1.2
  */
 
 'use strict';
 
 angular.module('simpleStorage', [])
-    .factory('$local', function ($rootScope, $window) {
+    .factory('$local',['$rootScope', '$window', function ($rootScope, $window) {
 
-        var $localFactory = {};
-        var method = $window.localStorage;
-        var pre = 'sS.expire.';
+        var $localFactory = {},
+            method = $window.localStorage,
+            pre = 'sS.expire.';
 
         /**
          * Creates a localStorage variable
@@ -102,12 +102,12 @@ angular.module('simpleStorage', [])
 
         return $localFactory;
 
-    })
-    .factory('$session', function ($rootScope, $window) {
+    }])
+    .factory('$session',['$rootScope', '$window', function ($rootScope, $window) {
 
-        var $sessionFactory = {};
-        var method = $window.sessionStorage;
-        var pre = 'sS.expire.';
+        var $sessionFactory = {},
+            method = $window.sessionStorage,
+            pre = 'sS.expire.';
 
         /**
          * Creates a sessionStorage
@@ -179,8 +179,8 @@ angular.module('simpleStorage', [])
 
         return $sessionFactory;
 
-    })
-    .factory('$flash', function ($rootScope, $window) {
+    }])
+    .factory('$flash',['$rootScope', '$window', function ($rootScope, $window) {
 
         var $flashFactory = {},
             pre = 'sS.flash.',
@@ -215,7 +215,7 @@ angular.module('simpleStorage', [])
 
         return $flashFactory;
 
-    });
+    }]);
 
 /**
  *
